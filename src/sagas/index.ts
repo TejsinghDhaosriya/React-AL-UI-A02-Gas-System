@@ -1,7 +1,7 @@
 import { all } from "redux-saga/effects";
+import { gasSagas } from "../modules/GasChart/sagas";
 
-// import { moviesSagas } from "../components/Card/sagas/index";
 
 export default function* rootSaga() {
-  // yield all([...moviesSagas]);
+  yield all([...gasSagas]);
 }
