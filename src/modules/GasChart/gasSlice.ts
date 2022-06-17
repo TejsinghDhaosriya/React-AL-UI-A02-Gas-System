@@ -35,4 +35,7 @@ export const selectGasDataLoading = (state: GasDataState) =>
   state.gas.gasLoading;
 export const selectGasDataError = (state: GasDataState) =>
   state.gas.gasError;
+
+export const selectGasDataTotalAggregations = (state: GasDataState) => state.gas.gas?.regions[0]?.facilities[0]?.totalAggregations;;
+export const selectUtilityMeasurementUnit = (state: GasDataState) => state.gas.gas?.utilityMeasurementUnit;
 export default gasSlice.reducer;
