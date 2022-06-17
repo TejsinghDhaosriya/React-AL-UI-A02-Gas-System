@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import GasSystem from "./modules";
 import { Provider } from "react-redux";
