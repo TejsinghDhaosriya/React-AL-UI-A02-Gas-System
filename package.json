@@ -17,6 +17,7 @@
     "@types/react-dom": "^18.0.0",
     "addon-redux": "^2.0.11",
     "axios": "^0.27.2",
+    "enzyme": "^3.11.0",
     "highcharts": "^10.1.0",
     "highcharts-react-official": "^3.1.0",
     "react": "^18.2.0",
@@ -76,8 +77,12 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
+    "@types/enzyme": "^3.10.12",
+    "@types/redux-mock-store": "^1.0.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
+    "redux-mock-store": "^1.5.4",
     "webpack": "^5.73.0"
   }
 }

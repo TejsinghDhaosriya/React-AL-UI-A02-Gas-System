@@ -25,25 +25,25 @@ const GasHeader = () => {
         <ALHeader
           name="Actual"
           value={
-            gasDataTotalAggregations.totalActualConsumption +
+            gasDataTotalAggregations?.totalActualConsumption +
             utilityMeasurementUnit
           }
         />
         <ALHeader
           name="Baseline"
           value={
-            gasDataTotalAggregations.totalBaselineConsumption +
+            gasDataTotalAggregations?.totalBaselineConsumption +
             utilityMeasurementUnit
           }
         />
         <ALHeader
           name="Savings"
           value={
-            gasDataTotalAggregations.totalConsumptionSavings +
+            gasDataTotalAggregations?.totalConsumptionSavings +
             utilityMeasurementUnit
           }
           percentage={
-            gasDataTotalAggregations.totalConsumptionSavingsPercentage
+            gasDataTotalAggregations?.totalConsumptionSavingsPercentage
           }
         />
         <div
@@ -51,16 +51,16 @@ const GasHeader = () => {
         ></div>
         <ALHeader
           name="Actual Cost"
-          value={"$" + gasDataTotalAggregations.totalActualCost}
+          value={"$" + gasDataTotalAggregations?.totalActualCost}
         />
         <ALHeader
           name="Baseline Cost"
-          value={"$" + gasDataTotalAggregations.totalBaselineCost}
+          value={"$" + gasDataTotalAggregations?.totalBaselineCost}
         />
         <ALHeader
           name="Savings"
-          value={"$" + gasDataTotalAggregations.totalCostSavings}
-          percentage={gasDataTotalAggregations.totalCostSavingsPercentage}
+          value={"$" + gasDataTotalAggregations?.totalCostSavings}
+          percentage={gasDataTotalAggregations?.totalCostSavingsPercentage}
         />
       </div>
     </>
