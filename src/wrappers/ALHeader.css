@@ -1,0 +1,11 @@
+.al-header-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 96px;
+    margin: 0 6px;
+    color:white
+  }
+
+.al-header-name{
+    color:#787e79
+}

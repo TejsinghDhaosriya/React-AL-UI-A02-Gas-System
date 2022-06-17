@@ -1,0 +1,21 @@
+.gas-header-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+.gas-header-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: white;
+}
+
+.gas-tooltip {
+  margin-top: 9px;
+}
+
+.gas-header-data {
+  display: flex;
+  margin-bottom: 24px;
+}
