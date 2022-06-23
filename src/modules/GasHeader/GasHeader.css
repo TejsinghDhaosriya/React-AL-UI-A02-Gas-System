@@ -1,6 +1,5 @@
 .gas-header-container {
   display: flex;
-  flex-direction: row;
   margin-bottom: 8px;
 }
 .gas-header-title {
@@ -17,5 +16,6 @@
 
 .gas-header-data {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 24px;
 }
